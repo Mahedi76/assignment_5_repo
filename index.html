@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 5</title>
+
+     <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 <body>
-    
+<header>
+ <!-- banner content -->
+<section class="max-w-[1920px] mx-auto bg-white">
+   <div class="flex md:flex-row mx-auto justify-around md:justify-between items-center py-4 md:py-[24px] px-4 md:px-[60px] gap-4">
+        <div class="flex items-center gap-[12px]">
+            <img src="./assets/logo.png" class="w-12">
+            <h2 class="text-[#006747] font-bold text-[16px] md:text-[18px]">Emergency <br class="hidden md:block"> Service</h2>
+        </div>
+
+        <!-- Right Section: Stats and Button -->
+        <div class="flex items-center space-x-2 md:space-x-3">
+          <!-- Heart -->
+          <div id="heartCount" class="flex items-center bg-green-100 px-2 py-1 rounded-full text-xs md:text-sm font-semibold">
+            <span class="mr-1 md:mr-2">0</span>
+            <img src="./assets/heart.png" alt="Heart" class="w-4 h-4 md:w-5 md:h-5 ml-1" />
+          </div>
+          
+          <!-- Coins -->
+          <div id="coinCount" class="flex items-center bg-green-100 px-2 py-1 rounded-full text-xs md:text-sm font-semibold">
+            <span class="mr-1">100</span>
+            <img src="./assets/coin.png" alt="Coin" class="w-4 h-4 md:w-5 md:h-5 ml-2" />
+          </div>
+
+          <!-- Copy Button -->
+          <button id="copyCount" class="bg-green-600 hover:bg-green-700 text-white text-xs md:text-sm font-semibold px-3 md:px-4 py-1.5 rounded-full">
+            2 Copy
+          </button>
+        </div>
+   </div>
+</section>
+</header>
+
+<main>
+
+</main>
 </body>
 </html>
